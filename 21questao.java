@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class 21questao {
+public class 21questao.java {
     private String nome;
     private double preco;
     private int quantidade;
@@ -67,6 +67,7 @@ public class 21questao {
         } catch (IOException e) {
             System.err.println("Erro ao escrever no arquivo CSV: " + e.getMessage());
         }
+
 
         for (Produto produto : produtos) {
             produto.exibirDetalhes();
