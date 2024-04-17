@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Produto {
+public class 22questao.java {
     private String nome;
     private double preco;
     private int quantidade;
